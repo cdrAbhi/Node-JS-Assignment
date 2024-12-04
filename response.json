@@ -1,0 +1,84 @@
+{
+    "SortedSchoolData": [
+      {
+        "id": 2,
+        "name": "Blue Ridge Academy",
+        "address": "456 Oak Avenue, Riverdale",
+        "latitude": 40.712799072265625,
+        "longitude": -74.00599670410156,
+        "distance": 57.02291242523861
+      },
+      {
+        "id": 3,
+        "name": "Blue Ridge Academy",
+        "address": "456 Oak Avenue, Riverdale",
+        "latitude": 40.712799072265625,
+        "longitude": -74.00599670410156,
+        "distance": 57.02291242523861
+      },
+      {
+        "id": 4,
+        "name": "Blue Ridge Academy",
+        "address": "456 Oak Avenue, Riverdale",
+        "latitude": 40.712799072265625,
+        "longitude": -74.00599670410156,
+        "distance": 57.02291242523861
+      },
+      {
+        "id": 5,
+        "name": "Blue Ridge Academy-1",
+        "address": "456 Oak Avenue, Riverdale-1",
+        "latitude": 40.712799072265625,
+        "longitude": -74.00599670410156,
+        "distance": 57.02291242523861
+      },
+      {
+        "id": 7,
+        "name": "Mountainview Academy",
+        "address": "101 Aspen Drive, Ridgefield",
+        "latitude": 39.739200592041016,
+        "longitude": -104.99030303955078,
+        "distance": 2627.9194295247626
+      },
+      {
+        "id": 6,
+        "name": "Ocean Breeze School",
+        "address": "202 Beach Blvd, Oceanside",
+        "latitude": 36.77830123901367,
+        "longitude": -119.41790008544922,
+        "distance": 3928.1548907661704
+      },
+      {
+        "id": 8,
+        "name": "Sunshine High School",
+        "address": "789 Pine Road, Sunnyville",
+        "latitude": 34.05220031738281,
+        "longitude": -118.24369812011719,
+        "distance": 3940.2783417607625
+      },
+      {
+        "id": 10,
+        "name": "Raven publi Saran",
+        "address": "456 Oak Avenue, Riverdale",
+        "latitude": 75.71279907226562,
+        "longitude": -84.00599670410156,
+        "distance": 3980.180162321488
+      },
+      {
+        "id": 1,
+        "name": "Green Valley School",
+        "address": "123 Maple Street, Springfield",
+        "latitude": 37.774898529052734,
+        "longitude": -122.41940307617188,
+        "distance": 4141.440101664542
+      },
+      {
+        "id": 9,
+        "name": "JDK Saran Alashka",
+        "address": "456 Oak Avenue, Riverdale",
+        "latitude": 80.71279907226562,
+        "longitude": -74.00599670410156,
+        "distance": 4504.817727627508
+      }
+    ]
+  }

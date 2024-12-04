@@ -1,0 +1,10 @@
+{
+    "name": "my-projectesome-package",
+    "version": "1.0.0",
+    "author": "Abhishek Kumar <cse20196039@example.com>",
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "express": "^4.21.1",
+        "mysql2": "^3.11.5"
+    }
+}

@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  # Node.js application service
+  app:
+    build: .
+    container_name: school_management_app
+    ports:
+      - "3000:3000"  # Expose the app's port to the host
+    env_file:
+      - .env  # Load environment variables from the .env file
+    depends_on:
+      - mysql
+    networks:
+      - app-network
+
+# Current ther is no meaning of creating mysql because for this application we are using third party mysql platform
+# MySQL database service
+#   mysql:
+#     image: mysql:8.0
+#     container_name: mysql_db
+#     ports:
+#       - "3306:3306"
+#     environment:
+#       MYSQL_ROOT_PASSWORD: root
+#       MYSQL_DATABASE: myDb
+#       MYSQL_USER: admin
+#       MYSQL_PASSWORD: admin
+#     volumes:
+#       - ./message.sql:/docker-entrypoint-initdb.d/message.sql   # Mount SQL script to initialize the DB
+#       - mysql-data:/var/lib/mysql  # Mount volume for MySQL data persistence
+#     networks:
+#       - app-network
+
+# # Define named volumes for data persistence
+# volumes:
+#   mysql-data:
+
+# Define custom networks for the app
+networks:
+  app-network:
+    driver: bridge
